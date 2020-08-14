@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Definindo o título da guia-->
+	<title>UNES - Página principal</title>
+	<!-- Usando o comando abaixo para adicionar acentos na página web-->
+	<meta charset="utf-8">
+</head>
+<!-- Usando o atributo background para definir o fundo da nossa página web-->
+<body background="arquivos-necessarios-projetos-unes/fundo.png">
+<!-- Vamos construir a nossa página web com a estrutura de tabela. Definimos o border=1 inicialmente, a largura da tabela será definida pelo atributo width e o alinhamento pelo atributo align-->
+	<table border="0" width="900" align="center">
+<!-- A primeira linha da tabela, usando a tag <tr>, será definida pela imagem da logo e pelos links de outras páginas. Como primeiro dado da tabela, usando a tag <td> e definindo a altura pelo atributo height foi a logo e como segundo dado da tabela, usando para criar os links. O atributo align=right foi utilizado para alinhar os links a direita da página web-->		
+		<tr>
+			<td height="89">
+				<img src="arquivos-necessarios-projetos-unes/logo.png">
+			</td>
+<!--Cria-se esses links alinhados a direita, entender que esses links são linha 1 coluna 2 da tabela.-->
+			<td align="right">   
+				<a href="">Home</a>|
+				<a href="quem-somos.html">Quem somos</a>|
+				<a href="contato.html">Contato</a>
+				
+			</td>
+		</tr>
+<!-- A segunda linha da tabela será usada para incluir a imagem capa, usando o atributo colspan foi mesclado duas colunas da tabela para imagem ocupar o posicionamento correto da página-->			
+		<tr>
+			<td colspan="2">
+				<img src="arquivos-necessarios-projetos-unes/capa.png">
+			</td>
+
+		</tr>
+<!-- A terceira linha de tabela será usada para definir um texto para a página, com titulos e subtitulos usando as tags <h2> e <h4> respectivamentes. a tag <strong> foi usada para colocar em negrito uma parte do texto. Foi criado dois parágrafos com a tag <p> e usando o atributo colspan para mesclar duas colunas posicionou da maneira correta o texto.-->
+		<tr>
+			<td colspan="2">
+				<h2>Sobre a universidade</h2>
+				<p>
+					Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit. Proin eget tellus tortor. Integer nec mauris vitae eros imperdiet pretium nec quis lorem. Quisque vitae lectus imperdiet, pulvinar tellus eu, convallis nisi. Integer posuere, sapien ut cursus auctor, lectus eros finibus velit, et facilisis quam elit vitae lectus. Donec varius augue dui. Nam sit amet consequat ante, id interdum magna. Sed congue nec diam eget facilisis. Suspendisse et elit at ex mollis mollis. Donec euismod non orci vel consequat. Vivamus sit amet enim accumsan, congue mauris et, eleifend elit. Aliquam non varius sem.
+				</p>
+
+				<p>
+					Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit. Proin eget tellus tortor. Integer nec mauris vitae eros imperdiet pretium nec quis lorem. Quisque vitae lectus imperdiet, pulvinar tellus eu, convallis nisi. Integer posuere, sapien ut cursus auctor, lectus eros finibus velit, et facilisis quam elit vitae lectus. Donec varius augue dui. Nam sit amet consequat ante, id interdum magna. Sed congue nec diam eget facilisis. Suspendisse et elit at ex mollis mollis. Donec euismod non orci vel consequat. Vivamus sit amet enim accumsan, congue mauris et, eleifend elit. Aliquam non varius sem.
+				</p>
+			</td>
+		</tr>
+<!-- A quarta linha da tabela foi usada para incluir um pequeno texto. Os atributos colspan e align foram usados para posicionar corretamente dentro da página.-->
+		<tr>
+			<td colspan="2" align="center">
+				<h4>Todos os direitos reservados</h4>
+			</td>
+		</tr>
+
+
+	</table>
+</body>
+
+</html>
